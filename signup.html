@@ -1,0 +1,56 @@
+<!DOCTYPE html>  
+<html lang="en">  
+
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Document</title>  
+    <link rel="stylesheet" href="./bootstrap.css">  
+    <link rel="stylesheet" href="./style.css">  
+    <style>  
+        /* Custom CSS to adjust input field width */  
+        .form-control {  
+            width: 100%; /* Make the input fields take 100% of the column width */  
+            max-width: 500px; /* You can adjust max width as needed */  
+            margin: 0 auto; /* Center the inputs in the column */  
+        }  
+    </style>  
+</head>  
+
+<body>  
+    <section class="container vh-100 d-flex align-items-center justify-content-center">  
+        <div class="row">  
+            <div class="col-lg-12 col-md-12 col-sm-12">  
+                <div class="d-flex align-items-center justify-content-center pt-3 pb-3">  
+                    <img src="./Icons/mixlr-logo-medium-54b6c6fdc5126e6e9bfa49076a068c08793a09f1dc7c901ad9310f3f7b7c3403.svg" alt="Logo" width="90">  
+                </div>  
+                <h2 class="text-center fs-4 fw-bold pt-3 pb-2">Create account</h2>  
+                <form action="">  
+                    <div class="form-group fw-medium">  
+                        <label for="username">Choose a username</label>  
+                        <input type="text" class="form-control" required="required" id="username">  
+                    </div>  
+                    <div class="form-group fw-medium">  
+                        <label for="email">Enter your email address</label>  
+                        <input type="email" class="form-control" required="required" id="email">  
+                    </div>  
+                    <div class="form-group fw-medium pt-2">  
+                        <label for="password">Choose a password</label>  
+                        <input type="password" class="form-control" required="required" id="password">  
+                    </div>  
+                    <div class="d-flex align-items-center justify-content-center mt-2">  
+                        <input type="checkbox">  
+                        <a class="ps-2 text-decoration-none text-black" href="">I agree to <span class="tbt">Terms of use</span></a>  
+                    </div>  
+                    <button class="btn btn-danger btn-block mt-3 rounded-pill w-100 py-2 fw-bold hovblack" type="submit">Create account</button>  
+                </form>  
+                
+                <div class="mt-4">  
+                    Already have an account? <a class="txt" href="./login.html">Log in</a>  
+                </div>  
+            </div>  
+        </div>  
+    </section>  
+</body>  
+<script src="./bootstrap.js"></script>  
+</html>

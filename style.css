@@ -66,26 +66,26 @@ body{
 
 .my-button2 {  
     width: 200px;
-    background-color: #f1f5f9; /* Normal background color */
+    background-color: #f1f5f9; 
     border-radius: 100px;
-    color: black; /* Text color */  
-    border: none; /* No border */  
-    padding: 5px 10px; /* Spacing */  
-    font-size: 24px; /* Font size */  
+    color: black;  
+    border: none; 
+    padding: 5px 10px; 
+    font-size: 24px; 
     font-weight: 600;
-    cursor: pointer; /* Pointer cursor on hover */  
+    cursor: pointer; 
 }  
 
 .my-button-2 {  
     width: 200px;
-    background-color: rgb(61, 60, 60); /* Normal background color */  
+    background-color: rgb(61, 60, 60); 
     border-radius: 100px;
-    color: white; /* Text color */  
-    border: none; /* No border */  
-    padding: 5px 10px; /* Spacing */  
-    font-size: 24px; /* Font size */  
+    color: white;   
+    border: none;   
+    padding: 5px 10px;  
+    font-size: 24px;  
     font-weight: 600;
-    cursor: pointer; /* Pointer cursor on hover */  
+    cursor: pointer;
 }
 
 .plus2 {
@@ -99,6 +99,45 @@ body{
     cursor: pointer;
     transition: background-color 0.3s ease;
     padding: 8px;
+}
+
+/* Custom CSS to show dropdown on hover */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.form-control {  
+    width: 100%; /* Make the input fields take 100% of the column width */  
+    max-width: 500px; /* You can adjust max width as needed */  
+    margin: 0 auto; /* Center the inputs in the column */  
+}
+
+.dropdown a:hover {  
+    color: #ed1c24; /* Change text color to red on hover */  
+}
+
+.hovblack:hover {
+    background-color: black;
+}
+
+.txt {
+    color: rgb(106, 106, 106); /* Initial text color */
+    transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+.txt:hover {
+    text-decoration: none;
+    color: red;
+}
+
+.tbt {
+    color: rgb(255, 0, 0); /* Initial text color */
+    transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+.tbt:hover {
+    text-decoration: none;
+    color: black;
 }
 
 /* Style adjustments for smaller screens */  
